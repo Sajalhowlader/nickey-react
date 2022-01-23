@@ -1,0 +1,31 @@
+/* Google fontn */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+/* common style */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.banar-images{
+    background-image:url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    background-color: rgba(16, 16, 16, 0.603);
+    background-blend-mode: overlay;
+    background-position: center;
+
+}
+.container-section{
+    height: 500px;
+    width: 100%;
+}
+.section-gap{
+    margin: 100px 0px;
+}
+.title-color{
+    color: rgb(195, 9, 180);
+}
